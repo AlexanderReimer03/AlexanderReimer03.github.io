@@ -1,0 +1,48 @@
+
+
+header{
+  background-color: yellow;
+  height: 50px;
+  width: 1250px;
+
+
+}
+nav{
+  background-color: grey;
+  height: 50px;
+  width: 1250px;
+
+}
+
+main{
+  background-color: green;
+  height: 200px;
+  width: 1000px;
+
+}
+
+aside{
+  background-color: red;
+  height: 200px;
+  width: 250px;
+
+}
+
+footer{
+  background-color: blue;
+  height: 50px;
+  width: 1250px;
+
+}
+
+#mainwrapper{
+  display:flex;
+
+}
+#wrapper{
+  width: 1250px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
