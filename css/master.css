@@ -3,46 +3,54 @@
 header{
   background-color: yellow;
   height: 50px;
-  width: 1250px;
+  width: 100%;
 
 
 }
 nav{
   background-color: grey;
   height: 50px;
-  width: 1250px;
+  width: 100%;
 
 }
 
 main{
   background-color: green;
   height: 200px;
-  width: 1000px;
+  width: 70%;
 
 }
 
 aside{
   background-color: red;
   height: 200px;
-  width: 250px;
+  width: 30%;
 
 }
 
 footer{
   background-color: blue;
-  height: 50px;
-  width: 1250px;
+  height: 200px;
+  width: 100%;
 
 }
 
-#mainwrapper{
-  display:flex;
+@media only screen and (max-width) {
 
+  #mainwrapper{
+  display:flex;
+  flex-direction: column;
+}
 }
 #wrapper{
-  width: 1250px;
+  width: 600px;
 margin-left: auto;
 margin-right: auto;
 
-
+}
+main{
+width: 100%
+}
+aside{
+width: 100%
 }
